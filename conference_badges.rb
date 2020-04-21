@@ -14,7 +14,8 @@ end
 
 def assign_rooms(array)
   array.each_with_index do |name, room|
-    
+end
+end
 
 
 
