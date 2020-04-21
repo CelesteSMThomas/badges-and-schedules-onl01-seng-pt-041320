@@ -14,10 +14,10 @@ end
 
 def assign_rooms(array)
   new_array = []
-  counter = 1
-  array.each do |name|
-new_array.push("Hello, #{name}! You'll be assigned to room #{counter}!")
-counter += 1
+  index = 1
+  array.each_with_index do |name, index|
+new_array.push("Hello, #{name}! You'll be assigned to room #{index}!")
+index += 1
 end
 new_array
 end
